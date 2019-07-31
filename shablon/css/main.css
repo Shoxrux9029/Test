@@ -1,0 +1,46 @@
+.navigator{
+    width: 100%;   
+}
+.icon-user{
+    width: 100px;
+}
+section .d-block{
+    width: 50%;
+    height: 600px;
+}
+footer{
+    background-color: #515357;
+    color: white;
+}
+footer a{
+    color: white;
+}
+.nav-a a{
+    color: black;
+}
+.form-inline{
+    margin: auto;
+}
+.d-block{
+   color: black;
+}
+.collapse a{
+    color: black;
+    display: none;
+}
+@media (max-width: 769px){
+    .nav-a{
+        display: none;
+    }
+    .collapse a{
+        display: inline;
+    }
+}
+body{
+    width: 100%;
+    
+}
+.card-deck{
+    margin-right: 0;
+    margin-left: 0;
+}
